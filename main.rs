@@ -1,10 +1,91 @@
 fn main() {
   let formsA: [f32; 16] = ["Deep Sea" (), "Lakes" (), "Rivers" (), "Coasts" (), "Wetlands" (), "Desert" (), "Plains" (), "Forest" (), "Caves" (), "Tundra" (), "Valley" (), "Mountains" (), "Rock Formations" (), "Weather" (), "Atmospheric Optical Phenomenona" (), "Astronomy" ()];
   let formsB: [f32; 16] = [5.9, 6.5, 7.1, 7.7, 4.1, 2.9, 8.9, 9.5, 4.7, 2.3, 8.3, 5.3, 3.5, 1.7, 0.5, 1.1];
-  let mut formsC [f32; 16] = []; //Frequencies 1
   let successionsA: [f32; 16] = ["fires" (), "floods" (), "droughts" (), "windstorms" (), "landslides" (), "avalanches" (), "volcanic eruptions" (), "disease epidemics" (), "ocean temperature changes" ()];
   let successionsB: [f32; 16] = [2.0, 5.0, 3.0, 6.0, 7.0, 9.0, 1.0, 8.0, 4.0];
-  let mut successionsC [f32; 16] = []; //Frequencies 2
   println!("Here are forms by elevation asc (and their habitation rating from 0.0 to 10.0):");
+  
+  let mut input_line = String::new();
+  io::stdin().read_line(&mut input_line).expect("Failed to read line");
+  let a: i32 = input_line.trim().parse().expect("Input not an integer");
+  let mut input_line = String::new();
+  io::stdin().read_line(&mut input_line).expect("Failed to read line");
+  let b: i32 = input_line.trim().parse().expect("Input not an integer");
+  let mut input_line = String::new();
+  io::stdin().read_line(&mut input_line).expect("Failed to read line");
+  let c: i32 = input_line.trim().parse().expect("Input not an integer");
+  let mut input_line = String::new();
+  io::stdin().read_line(&mut input_line).expect("Failed to read line");
+  let d: i32 = input_line.trim().parse().expect("Input not an integer");
+  let mut input_line = String::new();
+  io::stdin().read_line(&mut input_line).expect("Failed to read line");
+  let e: i32 = input_line.trim().parse().expect("Input not an integer");
+  let mut input_line = String::new();
+  io::stdin().read_line(&mut input_line).expect("Failed to read line");
+  let f: i32 = input_line.trim().parse().expect("Input not an integer");
+  let mut input_line = String::new();
+  io::stdin().read_line(&mut input_line).expect("Failed to read line");
+  let g: i32 = input_line.trim().parse().expect("Input not an integer");
+  let mut input_line = String::new();
+  io::stdin().read_line(&mut input_line).expect("Failed to read line");
+  let h: i32 = input_line.trim().parse().expect("Input not an integer");
+  let mut input_line = String::new();
+  io::stdin().read_line(&mut input_line).expect("Failed to read line");
+  let i: i32 = input_line.trim().parse().expect("Input not an integer");
+  let mut input_line = String::new();
+  io::stdin().read_line(&mut input_line).expect("Failed to read line");
+  let j: i32 = input_line.trim().parse().expect("Input not an integer");
+  let mut input_line = String::new();
+  io::stdin().read_line(&mut input_line).expect("Failed to read line");
+  let k: i32 = input_line.trim().parse().expect("Input not an integer");
+  let mut input_line = String::new();
+  io::stdin().read_line(&mut input_line).expect("Failed to read line");
+  let l: i32 = input_line.trim().parse().expect("Input not an integer");
+  let mut input_line = String::new();
+  io::stdin().read_line(&mut input_line).expect("Failed to read line");
+  let m: i32 = input_line.trim().parse().expect("Input not an integer");
+  let mut input_line = String::new();
+  io::stdin().read_line(&mut input_line).expect("Failed to read line");
+  let n: i32 = input_line.trim().parse().expect("Input not an integer");
+  let mut input_line = String::new();
+  io::stdin().read_line(&mut input_line).expect("Failed to read line");
+  let o: i32 = input_line.trim().parse().expect("Input not an integer");
+  let mut input_line = String::new();
+  io::stdin().read_line(&mut input_line).expect("Failed to read line");
+  let p: i32 = input_line.trim().parse().expect("Input not an integer");
+
   println!("Take note of succession of events such as the following:");
+
+  let mut input_line = String::new();
+  io::stdin().read_line(&mut input_line).expect("Failed to read line");
+  let q: i32 = input_line.trim().parse().expect("Input not an integer");
+  let mut input_line = String::new();
+  io::stdin().read_line(&mut input_line).expect("Failed to read line");
+  let r: i32 = input_line.trim().parse().expect("Input not an integer");
+  let mut input_line = String::new();
+  io::stdin().read_line(&mut input_line).expect("Failed to read line");
+  let s: i32 = input_line.trim().parse().expect("Input not an integer");
+  let mut input_line = String::new();
+  io::stdin().read_line(&mut input_line).expect("Failed to read line");
+  let t: i32 = input_line.trim().parse().expect("Input not an integer");
+  let mut input_line = String::new();
+  io::stdin().read_line(&mut input_line).expect("Failed to read line");
+  let u: i32 = input_line.trim().parse().expect("Input not an integer");
+  let mut input_line = String::new();
+  io::stdin().read_line(&mut input_line).expect("Failed to read line");
+  let v: i32 = input_line.trim().parse().expect("Input not an integer");
+  let mut input_line = String::new();
+  io::stdin().read_line(&mut input_line).expect("Failed to read line");
+  let w: i32 = input_line.trim().parse().expect("Input not an integer");
+  let mut input_line = String::new();
+  io::stdin().read_line(&mut input_line).expect("Failed to read line");
+  let x: i32 = input_line.trim().parse().expect("Input not an integer");
+  let mut input_line = String::new();
+  io::stdin().read_line(&mut input_line).expect("Failed to read line");
+  let y: i32 = input_line.trim().parse().expect("Input not an integer");
+
+  let aa: f32 = 5.9, 6.5, 7.1, 7.7, 4.1, 2.9, 8.9, 9.5, 4.7, 2.3, 8.3, 5.3, 3.5, 1.7, 0.5, 1.1
+  let bb: f32 = 2.0, 5.0, 3.0, 6.0, 7.0, 9.0, 1.0, 8.0, 4.0
+  let z: f32 = aa*bb;
+  println!("Environment Score "+z);
 }

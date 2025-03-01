@@ -108,8 +108,8 @@ fn main() {
   io::stdin().read_line(&mut input_line).expect("Failed to read line");
   let y: f32 = input_line.trim().parse().expect("Input not an integer");
 
-  let aa: f32 = (5.9*a+6.5*b+7.1*c+7.7*d+4.1*e+2.9*f+8.9*g+9.5*h+4.7*i+2.3*j+8.3*k+5.3*l+3.5*m+1.7*n+0.5*o+1.1*p)/160;
-  let bb: f32 = (2.0*q+5.0*r+3.0*s+6.0*t+7.0*u+9.0*v+1.0*x+8.0*y+4.0)/90;
+  let aa: f32 = ((5.9*a)+(6.5*b)+(7.1*c)+(7.7*d)+(4.1*e)+(2.9*f)+(8.9*g)+(9.5*h)+(4.7*i)+(2.3*j)+(8.3*k)+(5.3*l)+(3.5*m)+(1.7*n)+(0.5*o)+(1.1*p))/160;
+  let bb: f32 = ((2.0*q)+(5.0*r)+(3.0*s)+(6.0*t)+(7.0*u)+(9.0*v)+(1.0*w)+(8.0*x)+(4.0*y))/90;
   let z: f32 = aa*bb;
   println!("Environment Score "+z);
 }
